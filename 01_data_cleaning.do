@@ -8,7 +8,7 @@ clear all
 set more off
 cap log close
 
-cd "/Users/adam/Library/Mobile Documents/com~apple~CloudDocs/Uni /Semester 6/Toolkit/Data"
+cd "path/to/your/data"
 log using "01_data_cleaning.log", replace
 
 
