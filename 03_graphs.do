@@ -1,16 +1,15 @@
 *==============================================================
-* 03_graphs.do - E376
+* 03_graphs.do - wage project
 * All graphs reported in the analysis
 * Input: Data_Assignment.dta (from data_cleaning.do)
-* By: El Mazbouh, Adam (6687616) & Önümlü, Kamilhan (7113198)
+* By: El Mazbouh, Adam & Önümlü, Kamilhan
 *==============================================================
 
 clear all
 set more off
 cap log close
 
-cd "/Users/adam/Library/Mobile Documents/com~apple~CloudDocs/Uni /Semester 6/Toolkit/Data"
-log using "graphs.log", replace
+cd "path/to/your/data", replace
 
 use "Data_Assignment.dta", clear
 
