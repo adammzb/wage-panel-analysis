@@ -1,8 +1,8 @@
 *==============================================================
-* 01_data_cleaning.do - E376
+* 01_data_cleaning.do - wage project
 * Cleaning the raw Data and Merging it the final to Data_Assignment.dta
 * Input: ANNUALWAGES.csv | PPP.csv | WDI.csv | TM_WORLDdb.dta
-* By: El Mazbouh, Adam (6687616) & Önümlü, Kamilhan (7113198)
+* By: El Mazbouh, Adam & Önümlü, Kamilhan 
 *==============================================================
 clear all
 set more off
