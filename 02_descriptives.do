@@ -1,15 +1,14 @@
 *==============================================================
-* 02_descriptives.do - E376
+* 02_descriptives.do - wage project
 * All summary statistics, correlations, regressions, tables
 * Input: Data_Assignment.dta (from 01_datacleaning.do)
-* By: El Mazbouh, Adam (6687616) & Önümlü, Kamilhan (7113198)
+* By: El Mazbouh, Adam & Önümlü, Kamilhan
 *==============================================================
 clear all
 set more off
 cap log close
 
-cd "/Users/adam/Library/Mobile Documents/com~apple~CloudDocs/Uni /Semester 6/Toolkit/Data"
-log using "02_descriptives.log", replace
+cd "path/to/your/data", replace
 
 use "Data_Assignment.dta", clear
 
